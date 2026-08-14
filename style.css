@@ -5,11 +5,20 @@ body{
 header{
     background-color: #ceca97;
     color: #B78054;
+    text-align: center;
+    padding: 30px;
 }
-main{
+h1{
+    font-size: 36px;
+}
+h2{
+    color: darkolivegreen;
+}
+p{
+    font-size: 18px;
+}
     background-color: rgb(14, 129, 14);
 }
 footer{
     background-color: #d4cb99;
     color: #FFD9D4;
-}
