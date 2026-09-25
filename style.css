@@ -337,9 +337,11 @@ main {
     text-align: center;
     padding: 15px;
     font-size: 0.85rem;
+}
+
     button{
         background-color: #13260c;
-        color: #20551e
+        color: #20551e;
         border: none;
         padding: 10px 15px;
         border-radius: 8px;
