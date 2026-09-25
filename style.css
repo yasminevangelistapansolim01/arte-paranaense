@@ -330,14 +330,29 @@ main {
     color: var(--cor-detalhes);
 }
 
-.footer-bottom {
+.footer-bottom{
+
+
     background-color: #050a03;
     text-align: center;
     padding: 15px;
     font-size: 0.85rem;
+    button{
+        background-color: #13260c;
+        color: #ffffff
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+button:hover {
+    background-color: #1c3812;
 }
-
-/* RESPONSIVIDADE PARA CELULARES */
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20xp auto;
+}
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
@@ -351,4 +366,6 @@ main {
     .hero-section h1 {
         font-size: 1.8rem;
     }
+
+
 }
