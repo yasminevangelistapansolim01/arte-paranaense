@@ -1,15 +1,3 @@
-/* VARIÁVEIS DE CORES E ESTILOS */
-:root {
-    --cor-fundo-principal: #13260c;
-    --cor-fundo-card: #1c3812;
-    --cor-fundo-secao: #254818;
-    --cor-detalhes: #d9d49c;
-    --cor-texto-claro: #f5f8d6;
-    --cor-texto-escuro: #2b1f13;
-    --cor-sombra: rgba(0, 0, 0, 0.4);
-    --fonte-padrao: 'Segoe UI', Arial, sans-serif;
-}
-
 /* RESET INICIAL */
 * {
     margin: 0;
@@ -20,6 +8,18 @@
 html {
     scroll-behavior: smooth;
 }
+
+:root {
+    --cor-fundo-principal: #13260c;
+    --cor-fundo-card: #1c3812;
+    --cor-fundo-secao: #254818;
+    --cor-detalhes: #d9d49c;
+    --cor-texto-claro: #f5f8d6;
+    --cor-hover: #2b1f13;
+    --cor-sombra: rgba(0, 0, 0, 0.4);
+    --fonte-padrao: 'Segoe UI', Arial, sans-serif;
+}
+
 
 body {
     background-color: var(--cor-fundo-principal);
@@ -330,7 +330,7 @@ main {
     color: var(--cor-detalhes);
 }
 
-.footer-bottom{
+.footer-bottom {
 
 
     background-color: #050a03;
@@ -339,22 +339,25 @@ main {
     font-size: 0.85rem;
 }
 
-    button{
-        background-color: #13260c;
-        color: #20551e;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 8px;
-        cursor: pointer;
-    }
+button {
+    background-color: #13260c;
+    color: #20551e;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 button:hover {
     background-color: #1c3812;
 }
+
 .curtir {
     display: block;
     width: fit-content;
     margin: 20xp auto;
 }
+
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
