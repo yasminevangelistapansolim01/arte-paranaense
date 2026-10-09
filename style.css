@@ -337,14 +337,15 @@ main {
 
 
     background-color: #050a03;
+    color:var(--cor-texto-claro);
     text-align: center;
-    padding: 15px;
-    font-size: 0.85rem;
+    padding: 20xp;
+    margin-top:30xp;
 }
 
 button {
-    background-color: #13260c;
-    color: #20551e;
+    background-color:var(--cor-fundo-principal);
+    color: var(#d9d49c);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -352,7 +353,7 @@ button {
 }
 
 button:hover {
-    background-color: #1c3812;
+    background-color: var(--cor-hover)
 }
 
 .curtir {
