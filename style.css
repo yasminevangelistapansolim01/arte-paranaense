@@ -58,11 +58,14 @@ body {
 .nav-menu a {
     color: var(--cor-texto-escuro);
     text-decoration: none;
+    background-color:var(--cor-detalhes);
+    paddding: 10xp 15xp;
     font-weight: 600;
-    margin-left: 15px;
+    margin-left: 5xp;
     padding: 6px 12px;
-    border-radius: 20px;
+    border-radius: 8xp;
     transition: all 0.3s ease;
+    display:inline-block;
 }
 
 .nav-menu a:hover {
