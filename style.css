@@ -361,6 +361,12 @@ button:hover {
     width: fit-content;
     margin: 20xp auto;
 }
+.galeria {
+    display: flex;
+    gap: 20xp;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
     .header-container {
