@@ -18,10 +18,10 @@ html {
     --cor-hover: #2b1f13;
     --cor-sombra: rgba(0, 0, 0, 0.4);
     --fonte-padrao: 'Segoe UI', Arial, sans-serif;
-    --cor-fundo: var(--cor-fundo);
+    --cor-fundo: #13260c;
     --cor-texto-claro: #f5f8d6;
     --cor-fundo-principal: #13260c;
-    --cor-secundaria: var(--cor-detalhes);
+    --cor-secundaria: #d9d49c;
     --cor-hover: #2b1f13;
     --cor-superficie: #254818;
     --cor-card: #1c3812;
